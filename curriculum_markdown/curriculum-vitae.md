@@ -6,8 +6,8 @@ Bienvenidos a mi `CURRICULUM-VITAE`, espero que se diviertan!
 ## **Esta Soy Yo!**
 Una persona organizada que cumple con las labores que se le asignan, con entusiasmo y responsabilidad,  respetuosa con los demás, y sobre todo muy `sociable y alegre.`
 
-![Esta es mi foto](./ssr/foto.jpg)
- [Fotografía]
+![Esta es mi foto](./srr/mileidy.jpg)
+ [Mileidy]
 
 ----------------------
 
@@ -33,6 +33,18 @@ Fundación Universitaria Autónoma de las Américas
 --------------------------
 
 ## Programas que manejo!
+
+![Illustrator](./srr/illus.jpg)
+ [---------------] `* Illustrator`
+
+![Photoshop](./srr/photoshop.jpg)
+  [-----------] `* Photoshop`
+
+![Corel](./srr/corel.jpg)
+   [----------]  `* CorelDraw`
+
+![Atom](./srr/atom.jpg)
+   [----------]  `* Atom`
 
 <hr/>
 
