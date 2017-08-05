@@ -23,25 +23,25 @@ Fundación Universitaria Autónoma de las Américas
 					Secretariado General <br/>
 					[2008]()
 >>> [Seminarios y Otros]()
-* Arbusta, Testing de Software, [09 septiembre del 2016 (80 horas)]()
-* SENA, Encuadernación rustica manual con adhesivos, [15 de junio del 2015 (40 horas)]()
-* SENA, Emprendimiento, [17 marzo del 2007 (17 horas)]()
+  * Arbusta, Testing de Software, [09 septiembre del 2016 (80 horas)]()
+  * SENA, Encuadernación rustica manual con adhesivos, [15 de junio del 2015 (40 horas)]()
+  * SENA, Emprendimiento, [17 marzo del 2007 (17 horas)]()
 
 --------------------------
 
 ## Programas que manejo!
 
 ![Illustrator](./srr/illus.jpg)
- [---------------] `* Illustrator`
+ **--------------->** `Illustrator`
 
 ![Photoshop](./srr/photoshop.jpg)
-  [-----------] `* Photoshop`
+  **----------->** `Photoshop`
 
 ![Corel](./srr/corel.jpg)
-   [----------]  `* CorelDraw`
+   **---------->**  `CorelDraw`
 
 ![Atom](./srr/atom.jpg)
-   [----------]  `* Atom`
+   **---------->**  `Atom`
 
 <hr/>
 
