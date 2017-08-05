@@ -15,17 +15,17 @@ Una persona organizada que cumple con las labores que se le asignan, con entusia
 ### Mis Estudios!!
 
 > [Tecnológico:]()			  
-  SENA  
+  **SENA**  <br/>
   Diseño para la Comunicación Gráfica <br/>
-  [2016]()
+  **[2016]**()
 >> [Técnico:]() <br/>				
-Fundación Universitaria Autónoma de las Américas
-					Secretariado General <br/>
-					[2008]()
+  **Fundación Universitaria Autónoma de las Américas** <br/>
+  Secretariado General <br/>
+  **[2008]**()
 >>>[Seminarios y Otros]() <br/>
-Arbusta, Testing de Software, [09 septiembre del 2016 (80 horas)]() <br/>
-SENA, Encuadernación rustica manual con adhesivos, [15 de junio del 2015 (40 horas)]() <br/>
-SENA, Emprendimiento, [17 marzo del 2007 (17 horas)]()
+**Arbusta,** Testing de Software, **[09 septiembre del 2016 (80 horas)]**() <br/>
+**SENA**, Encuadernación rustica manual con adhesivos, **[15 de junio del 2015 (40 horas)]**() <br/>
+**SENA**, Emprendimiento, **[17 marzo del 2007 (17 horas)]**()
 
 --------------------------
 
@@ -47,9 +47,9 @@ SENA, Emprendimiento, [17 marzo del 2007 (17 horas)]()
 
 ### Mi Experiencia Laboral
 
-  >**Analista de Pruebas** 		
-  Arbusta SAS <br/>
-  Agosto 2016 – Presente
+  >**Analista de Pruebas** <br/> 		
+  **Arbusta SAS** <br/>
+  **Agosto 2016 – Presente**
 
 * Participación en proyectos de pruebas de software en el sector industrial, salud, seguridad, entre otros, realizando pruebas funcionales y de usabilidad.
 * Diseño y ejecución de casos de pruebas de software de baja, media y alta complejidad, además de la gestión de incidentes.
