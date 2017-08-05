@@ -6,7 +6,7 @@ Bienvenidos a mi `CURRICULUM-VITAE`, espero que se diviertan!
 ## **Esta Soy Yo!**
 Una persona organizada que cumple con las labores que se le asignan, con entusiasmo y responsabilidad,  respetuosa con los demás, y sobre todo muy `sociable y alegre.`
 
-![Esta es mi foto](./srr/mileidy.jpg) <br/>
+<center>![Esta es mi foto](./srr/mileidy.jpg) </center><br/>
  [Mileidy]
 
 ----------------------
@@ -23,9 +23,9 @@ Fundación Universitaria Autónoma de las Américas
 					Secretariado General <br/>
 					[2008]()
 >>> [Seminarios y Otros]()
-  * Arbusta, Testing de Software, [09 septiembre del 2016 (80 horas)]()
-  * SENA, Encuadernación rustica manual con adhesivos, [15 de junio del 2015 (40 horas)]()
-  * SENA, Emprendimiento, [17 marzo del 2007 (17 horas)]()
+* Arbusta, Testing de Software, [09 septiembre del 2016 (80 horas)]()
+* SENA, Encuadernación rustica manual con adhesivos, [15 de junio del 2015 (40 horas)]()
+* SENA, Emprendimiento, [17 marzo del 2007 (17 horas)]()
 
 --------------------------
 
