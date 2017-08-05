@@ -22,7 +22,7 @@ Una persona organizada que cumple con las labores que se le asignan, con entusia
 Fundación Universitaria Autónoma de las Américas
 					Secretariado General <br/>
 					[2008]()
->>>[Seminarios y Otros]()
+>>>[Seminarios y Otros]() <br/>
 Arbusta, Testing de Software, [09 septiembre del 2016 (80 horas)]() <br/>
 SENA, Encuadernación rustica manual con adhesivos, [15 de junio del 2015 (40 horas)]() <br/>
 SENA, Emprendimiento, [17 marzo del 2007 (17 horas)]()
@@ -31,8 +31,8 @@ SENA, Emprendimiento, [17 marzo del 2007 (17 horas)]()
 
 ## Programas que manejo!
 
-![Illustrator](./srr/illus.jpg) **--------------->**  `Illustrator`
-
+![Illustrator](./srr/illus.jpg)
+**--------------->**  `Illustrator`
 
 ![Photoshop](./srr/photoshop.jpg)
   **----------->** `Photoshop`
@@ -47,7 +47,7 @@ SENA, Emprendimiento, [17 marzo del 2007 (17 horas)]()
 
 ### Mi Experiencia Laboral
 
-  >Analista de Pruebas 		
+  >**Analista de Pruebas** 		
   Arbusta SAS <br/>
   Agosto 2016 – Presente
 
