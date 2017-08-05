@@ -14,11 +14,11 @@ Una persona organizada que cumple con las labores que se le asignan, con entusia
 
 ### Mis Estudios!!
 
->[Tecnológico:]()			  
+> [Tecnológico:]()			  
   SENA  
   Diseño para la Comunicación Gráfica <br/>
   [2016]()
->>[Técnico:]()				
+>> [Técnico:]() <br/>				
 Fundación Universitaria Autónoma de las Américas
 					Secretariado General <br/>
 					[2008]()
@@ -26,6 +26,7 @@ Fundación Universitaria Autónoma de las Américas
 * Arbusta, Testing de Software, [09 septiembre del 2016 (80 horas)]()
 * SENA, Encuadernación rustica manual con adhesivos, [15 de junio del 2015 (40 horas)]()
 * SENA, Emprendimiento, [17 marzo del 2007 (17 horas)]()
+>>>>
 
 --------------------------
 
