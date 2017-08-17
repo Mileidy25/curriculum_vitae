@@ -3,21 +3,34 @@ Mi nombres es: `Leidy Johana Galván A`. <br/>
 Bienvenidos a mi `CURRICULUM-VITAE`, espero que se diviertan!
 
 
-## **Esta Soy Yo!**
+## **Esta Soy Yo!** :princess:
 Una persona organizada que cumple con las labores que se le asignan, con entusiasmo y responsabilidad,  respetuosa con los demás, y sobre todo muy `sociable y alegre.`
 
 <p align="center">
   <a>
     <img width=40% src="./srr/mileidy.jpg"><br>
-    [Mileidy :octocat:]
+    [Mileidy] :octocat:
   </a>
 </p>
 
 
 ----------------------
 
+|Contactame :iphone:|  |
+| ------ | ----------- |
+| Fecha de Nacimiento | 31 de enero de 1991|
+| Mi celular | 302 430 0096|
+| Mi E-mail | mileidyyohis@hotmail.com|
+|||
+|  **Redes** :computer:|  |
+| Mi twitter  | @mileidy1703|
+| Mi GitHub | https://github.com/Mileidy25 |
+||||
 
-### Mis Estudios!!
+------------------------
+
+
+### Mis Estudios!! :mortar_board:
 
 > [Tecnológico:]		  
   **SENA**  <br/>
@@ -36,7 +49,7 @@ Una persona organizada que cumple con las labores que se le asignan, con entusia
 
 --------------------------
 
-## Programas que manejo!
+## Programas que manejo! :bar_chart:
 
 ![Illustrator](./srr/illus.jpg)
 **------------------>**  `Illustrator`
@@ -52,7 +65,7 @@ Una persona organizada que cumple con las labores que se le asignan, con entusia
 
 <hr/>
 
-### Mi Experiencia Laboral
+### Mi Experiencia Laboral :post_office:
 
   >**Analista de Pruebas** <br/> 		
   **Arbusta SAS** <br/>
@@ -60,18 +73,3 @@ Una persona organizada que cumple con las labores que se le asignan, con entusia
 
 * Participación en proyectos de pruebas de software en el sector industrial, salud, seguridad, entre otros, realizando pruebas funcionales y de usabilidad.
 * Diseño y ejecución de casos de pruebas de software de baja, media y alta complejidad, además de la gestión de incidentes.
-
----------
-
-|Contactame :iphone:|  |
-| ------ | ----------- |
-| Fecha de Nacimiento | 31 de enero de 1991|
-| Mi celular | 302 430 0096|
-| Mi E-mail | mileidyyohis@hotmail.com|
-|||
-|**Redes** :computer:|  |
-| Mi twitter  | @mileidy1703|
-| Mi GitHub | https://github.com/Mileidy25 |
-||||
-
-------------------------
