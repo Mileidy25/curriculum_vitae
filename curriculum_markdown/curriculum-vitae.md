@@ -6,42 +6,49 @@ Bienvenidos a mi `CURRICULUM-VITAE`, espero que se diviertan!
 ## **Esta Soy Yo!**
 Una persona organizada que cumple con las labores que se le asignan, con entusiasmo y responsabilidad,  respetuosa con los demás, y sobre todo muy `sociable y alegre.`
 
-![Esta es mi foto](./srr/mileidy.jpg) <br/>
-[Mileidy]
+<p align="center">
+  <a>
+    <img width=50% src="./srr/mileidy.jpg"><br>
+    [Mileidy]
+  </a>
+</p>
+
 
 ----------------------
 
 
 ### Mis Estudios!!
 
-> [Tecnológico:]()			  
+> [Tecnológico:]		  
   **SENA**  <br/>
   Diseño para la Comunicación Gráfica <br/>
-  **[2016]**()
->> [Técnico:]() <br/>				
+  **[2016]**
+>> [Técnico:] <br/>				
   **Fundación Universitaria Autónoma de las Américas** <br/>
   Secretariado General <br/>
-  **[2008]**()
->>>[Seminarios y Otros]() <br/>
-**Arbusta,** Testing de Software, **[09 septiembre del 2016 (80 horas)]**() <br/>
-**SENA**, Encuadernación rustica manual con adhesivos, **[15 de junio del 2015 (40 horas)]**() <br/>
-**SENA**, Emprendimiento, **[17 marzo del 2007 (17 horas)]**()
+  **[2008]**
+>>>[Seminarios y Otros] <br/>
+**Wordl Tech Markers** BootCamp **(Frond-End) [junio del 2017 (9 semanas)] <br/>
+**Arbusta,** Testing de Software, **[septiembre del 2016 (80 horas)]** <br/>
+**SENA**, Encuadernación rustica manual con adhesivos, **[junio del 2015 (40 horas)]**() <br/>
+**SENA**, Emprendimiento, **[marzo del 2007 (17 horas)]**
+
 
 --------------------------
 
 ## Programas que manejo!
 
 ![Illustrator](./srr/illus.jpg)
-**--------------->**  `Illustrator`
+**------------------>**  `Illustrator`
 
 ![Photoshop](./srr/photoshop.jpg)
-  **----------->** `Photoshop`
+**------------->** `Photoshop`
 
 ![Corel](./srr/corel.jpg)
-   **---------->**  `CorelDraw`
+**--------->**  `CorelDraw`
 
 ![Atom](./srr/atom.jpg)
-   **---------->**  `Atom`
+**------->**  `Atom`
 
 <hr/>
 
@@ -58,6 +65,7 @@ Una persona organizada que cumple con las labores que se le asignan, con entusia
 
 |Contactame|  |
 | ------ | ----------- |
+| Fecha de Nacimiento | 31 de enero de 1991|
 | Mi celular | 302 430 0096|
 | Mi E-mail | mileidyyohis@hotmail.com|
 |||
