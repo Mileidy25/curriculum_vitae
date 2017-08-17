@@ -1,4 +1,4 @@
-# **HOLAS!**
+# **HOLAS!** :wave:
 Mi nombres es: `Leidy Johana Galván A`. <br/>
 Bienvenidos a mi `CURRICULUM-VITAE`, espero que se diviertan!
 
@@ -8,8 +8,8 @@ Una persona organizada que cumple con las labores que se le asignan, con entusia
 
 <p align="center">
   <a>
-    <img width=50% src="./srr/mileidy.jpg"><br>
-    [Mileidy]
+    <img width=40% src="./srr/mileidy.jpg"><br>
+    [Mileidy :octocat:]
   </a>
 </p>
 
@@ -63,13 +63,13 @@ Una persona organizada que cumple con las labores que se le asignan, con entusia
 
 ---------
 
-|Contactame|  |
+|Contactame :iphone:|  |
 | ------ | ----------- |
 | Fecha de Nacimiento | 31 de enero de 1991|
 | Mi celular | 302 430 0096|
 | Mi E-mail | mileidyyohis@hotmail.com|
 |||
-|**Redes**|  |
+|**Redes** :computer:|  |
 | Mi twitter  | @mileidy1703|
 | Mi GitHub | https://github.com/Mileidy25 |
 ||||
