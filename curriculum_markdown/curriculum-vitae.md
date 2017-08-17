@@ -9,11 +9,10 @@ Una persona organizada que cumple con las labores que se le asignan, con entusia
 <p align="center">
   <a>
     <img width=40% src="./srr/mileidy.jpg"><br>
-    [Mileidy] :octocat:
+     Mileidy :octocat:
   </a>
 </p>
-
-
+  
 ----------------------
 
 |Contactame :iphone:|  |
