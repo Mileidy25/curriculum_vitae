@@ -2,6 +2,7 @@
 Mi nombres es: `Leidy Johana Galván A`. <br/>
 Bienvenidos a mi `CURRICULUM-VITAE`, espero que se diviertan!
 
+<hr/>
 
 ## **Esta Soy Yo!** :princess:
 Una persona organizada que cumple con las labores que se le asignan, con entusiasmo y responsabilidad,  respetuosa con los demás, y sobre todo muy `sociable y alegre.`
@@ -13,7 +14,7 @@ Una persona organizada que cumple con las labores que se le asignan, con entusia
   </a>
 </p>
 
-----------------------
+<hr/>
 
 |Contactame :iphone:|  |
 | ------ | ----------- |
@@ -26,8 +27,7 @@ Una persona organizada que cumple con las labores que se le asignan, con entusia
 | Mi GitHub | https://github.com/Mileidy25 |
 ||||
 
-------------------------
-
+<hr/>
 
 ### Mis Estudios!! :mortar_board:
 
@@ -46,9 +46,9 @@ Una persona organizada que cumple con las labores que se le asignan, con entusia
 **SENA**, Emprendimiento, **[marzo del 2007 (17 horas)]**
 
 
---------------------------
+<hr/>
 
-## Programas que manejo! :bar_chart:
+##  :bar_chart: Programas que manejo! :bar_chart:
 
 ![Illustrator](./srr/illus.jpg)
 **------------------>**  `Illustrator`
@@ -64,7 +64,7 @@ Una persona organizada que cumple con las labores que se le asignan, con entusia
 
 <hr/>
 
-### Mi Experiencia Laboral :post_office:
+###  :post_office: Mi Experiencia Laboral :post_office:
 
   >**Analista de Pruebas** <br/> 		
   **Arbusta SAS** <br/>
