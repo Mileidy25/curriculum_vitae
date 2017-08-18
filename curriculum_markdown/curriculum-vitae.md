@@ -12,7 +12,7 @@ Una persona organizada que cumple con las labores que se le asignan, con entusia
      Mileidy :octocat:
   </a>
 </p>
-  
+
 ----------------------
 
 |Contactame :iphone:|  |
@@ -31,16 +31,16 @@ Una persona organizada que cumple con las labores que se le asignan, con entusia
 
 ### Mis Estudios!! :mortar_board:
 
-> [Tecnológico:]		  
+> **Tecnológico:**	  
   **SENA**  <br/>
   Diseño para la Comunicación Gráfica <br/>
   **[2016]**
->> [Técnico:] <br/>				
+>> **Técnico:** <br/>				
   **Fundación Universitaria Autónoma de las Américas** <br/>
   Secretariado General <br/>
   **[2008]**
->>>[Seminarios y Otros] <br/>
-**Wordl Tech Markers** BootCamp **(Frond-End) [junio del 2017 (9 semanas)] <br/>
+>>>**Seminarios y Otros** <br/>
+**World Tench Makers** BootCamp **(Frond-End) [junio del 2017 (9 semanas)] <br/>
 **Arbusta,** Testing de Software, **[septiembre del 2016 (80 horas)]** <br/>
 **SENA**, Encuadernación rustica manual con adhesivos, **[junio del 2015 (40 horas)]**() <br/>
 **SENA**, Emprendimiento, **[marzo del 2007 (17 horas)]**
