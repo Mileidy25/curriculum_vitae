@@ -29,7 +29,7 @@ Una persona organizada que cumple con las labores que se le asignan, con entusia
 
 <hr/>
 
-### Mis Estudios!! :mortar_board:
+###  :mortar_board: Mis Estudios!! :mortar_board:
 
 > **Tecnológico:**	  
   **SENA**  <br/>
