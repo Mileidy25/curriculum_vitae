@@ -1,178 +1,112 @@
-// generated on 2017-07-22 using generator-webapp 3.0.1
-const gulp = require('gulp');
-const gulpLoadPlugins = require('gulp-load-plugins');
-const browserSync = require('browser-sync').create();
-const del = require('del');
-const wiredep = require('wiredep').stream;
-const runSequence = require('run-sequence');
+var gulp = require('gulp');
+var sass = require('gulp-sass');
+var browserSync = require('browser-sync').create();
+var header = require('gulp-header');
+var cleanCSS = require('gulp-clean-css');
+var rename = require("gulp-rename");
+var uglify = require('gulp-uglify');
+var pkg = require('./package.json');
 
-const $ = gulpLoadPlugins();
-const reload = browserSync.reload;
+// Set the banner content
+var banner = ['/*!\n',
+  ' * Start Bootstrap - <%= pkg.title %> v<%= pkg.version %> (<%= pkg.homepage %>)\n',
+  ' */\n',
+  ''
+].join('');
 
-let dev = true;
 
-gulp.task('styles', () => {
-  return gulp.src('app/styles/*.scss')
-    .pipe($.plumber())
-    .pipe($.if(dev, $.sourcemaps.init()))
-    .pipe($.sass.sync({
-      outputStyle: 'expanded',
-      precision: 10,
-      includePaths: ['.']
-    }).on('error', $.sass.logError))
-    .pipe($.autoprefixer({browsers: ['> 1%', 'last 2 versions', 'Firefox ESR']}))
-    .pipe($.if(dev, $.sourcemaps.write()))
-    .pipe(gulp.dest('.tmp/styles'))
-    .pipe(reload({stream: true}));
-});
-
-gulp.task('scripts', () => {
-  return gulp.src('app/scripts/**/*.js')
-    .pipe($.plumber())
-    .pipe($.if(dev, $.sourcemaps.init()))
-    .pipe($.babel())
-    .pipe($.if(dev, $.sourcemaps.write('.')))
-    .pipe(gulp.dest('.tmp/scripts'))
-    .pipe(reload({stream: true}));
-});
-
-function lint(files) {
-  return gulp.src(files)
-    .pipe($.eslint({ fix: true }))
-    .pipe(reload({stream: true, once: true}))
-    .pipe($.eslint.format())
-    .pipe($.if(!browserSync.active, $.eslint.failAfterError()));
-}
-
-gulp.task('lint', () => {
-  return lint('app/scripts/**/*.js')
-    .pipe(gulp.dest('app/scripts'));
-});
-gulp.task('lint:test', () => {
-  return lint('test/spec/**/*.js')
-    .pipe(gulp.dest('test/spec'));
-});
-
-gulp.task('html', ['styles', 'scripts'], () => {
-  return gulp.src('app/*.html')
-    .pipe($.useref({searchPath: ['.tmp', 'app', '.']}))
-    .pipe($.if(/\.js$/, $.uglify({compress: {drop_console: true}})))
-    .pipe($.if(/\.css$/, $.cssnano({safe: true, autoprefixer: false})))
-    .pipe($.if(/\.html$/, $.htmlmin({
-      collapseWhitespace: true,
-      minifyCSS: true,
-      minifyJS: {compress: {drop_console: true}},
-      processConditionalComments: true,
-      removeComments: true,
-      removeEmptyAttributes: true,
-      removeScriptTypeAttributes: true,
-      removeStyleLinkTypeAttributes: true
-    })))
-    .pipe(gulp.dest('dist'));
-});
-
-gulp.task('images', () => {
-  return gulp.src('app/images/**/*')
-    .pipe($.cache($.imagemin()))
-    .pipe(gulp.dest('dist/images'));
-});
-
-gulp.task('fonts', () => {
-  return gulp.src(require('main-bower-files')('**/*.{eot,svg,ttf,woff,woff2}', function (err) {})
-    .concat('app/fonts/**/*'))
-    .pipe($.if(dev, gulp.dest('.tmp/fonts'), gulp.dest('dist/fonts')));
-});
-
-gulp.task('extras', () => {
-  return gulp.src([
-    'app/*',
-    '!app/*.html'
-  ], {
-    dot: true
-  }).pipe(gulp.dest('dist'));
-});
-
-gulp.task('clean', del.bind(null, ['.tmp', 'dist']));
-
-gulp.task('serve', () => {
-  runSequence(['clean', 'wiredep'], ['styles', 'scripts', 'fonts'], () => {
-    browserSync.init({
-      notify: false,
-      port: 9000,
-      server: {
-        baseDir: ['.tmp', 'app'],
-        routes: {
-          '/bower_components': 'bower_components'
-        }
-      }
-    });
-
-    gulp.watch([
-      'app/*.html',
-      'app/images/**/*',
-      '.tmp/fonts/**/*'
-    ]).on('change', reload);
-
-    gulp.watch('app/styles/**/*.scss', ['styles']);
-    gulp.watch('app/scripts/**/*.js', ['scripts']);
-    gulp.watch('app/fonts/**/*', ['fonts']);
-    gulp.watch('bower.json', ['wiredep', 'fonts']);
-  });
-});
-
-gulp.task('serve:dist', ['default'], () => {
-  browserSync.init({
-    notify: false,
-    port: 9000,
-    server: {
-      baseDir: ['dist']
-    }
-  });
-});
-
-gulp.task('serve:test', ['scripts'], () => {
-  browserSync.init({
-    notify: false,
-    port: 9000,
-    ui: false,
-    server: {
-      baseDir: 'test',
-      routes: {
-        '/scripts': '.tmp/scripts',
-        '/bower_components': 'bower_components'
-      }
-    }
-  });
-
-  gulp.watch('app/scripts/**/*.js', ['scripts']);
-  gulp.watch(['test/spec/**/*.js', 'test/index.html']).on('change', reload);
-  gulp.watch('test/spec/**/*.js', ['lint:test']);
-});
-
-// inject bower components
-gulp.task('wiredep', () => {
-  gulp.src('app/styles/*.scss')
-    .pipe($.filter(file => file.stat && file.stat.size))
-    .pipe(wiredep({
-      ignorePath: /^(\.\.\/)+/
+gulp.task('sass', function() {
+  return gulp.src('scss/grayscale.scss')
+    .pipe(sass())
+    .pipe(header(banner, {
+      pkg: pkg
     }))
-    .pipe(gulp.dest('app/styles'));
-
-  gulp.src('app/*.html')
-    .pipe(wiredep({
-      exclude: ['bootstrap'],
-      ignorePath: /^(\.\.\/)*\.\./
+    .pipe(gulp.dest('css'))
+    .pipe(browserSync.reload({
+      stream: true
     }))
-    .pipe(gulp.dest('app'));
 });
 
-gulp.task('build', ['lint', 'html', 'images', 'fonts', 'extras'], () => {
-  return gulp.src('dist/**/*').pipe($.size({title: 'build', gzip: true}));
+// Minify compiled CSS
+gulp.task('minify-css', ['sass'], function() {
+  return gulp.src('css/grayscale.css')
+    .pipe(cleanCSS({
+      compatibility: 'ie8'
+    }))
+    .pipe(rename({
+      suffix: '.min'
+    }))
+    .pipe(gulp.dest('css'))
+    .pipe(browserSync.reload({
+      stream: true
+    }))
 });
 
-gulp.task('default', () => {
-  return new Promise(resolve => {
-    dev = false;
-    runSequence(['clean', 'wiredep'], 'build', resolve);
-  });
+// Minify custom JS
+gulp.task('minify-js', function() {
+  return gulp.src('js/grayscale.js')
+    .pipe(uglify())
+    .pipe(header(banner, {
+      pkg: pkg
+    }))
+    .pipe(rename({
+      suffix: '.min'
+    }))
+    .pipe(gulp.dest('js'))
+    .pipe(browserSync.reload({
+      stream: true
+    }))
+});
+
+// Copy vendor files from /node_modules into /vendor
+// NOTE: requires `npm install` before running!
+gulp.task('copy', function() {
+  gulp.src([
+      'node_modules/bootstrap/dist/**/*',
+      '!**/npm.js',
+      '!**/bootstrap-theme.*',
+      '!**/*.map'
+    ])
+    .pipe(gulp.dest('vendor/bootstrap'))
+
+  gulp.src(['node_modules/jquery/dist/jquery.js', 'node_modules/jquery/dist/jquery.min.js'])
+    .pipe(gulp.dest('vendor/jquery'))
+
+  gulp.src(['node_modules/popper.js/dist/umd/popper.js', 'node_modules/popper.js/dist/umd/popper.min.js'])
+    .pipe(gulp.dest('vendor/popper'))
+
+  gulp.src(['node_modules/jquery.easing/*.js'])
+    .pipe(gulp.dest('vendor/jquery-easing'))
+
+  gulp.src([
+      'node_modules/font-awesome/**',
+      '!node_modules/font-awesome/**/*.map',
+      '!node_modules/font-awesome/.npmignore',
+      '!node_modules/font-awesome/*.txt',
+      '!node_modules/font-awesome/*.md',
+      '!node_modules/font-awesome/*.json'
+    ])
+    .pipe(gulp.dest('vendor/font-awesome'))
+})
+
+// Default task
+gulp.task('default', ['sass', 'minify-css', 'minify-js', 'copy']);
+
+// Configure the browserSync task
+gulp.task('browserSync', function() {
+  browserSync.init({
+    server: {
+      baseDir: ''
+    },
+  })
+})
+
+// Dev task with browserSync
+gulp.task('dev', ['browserSync', 'sass', 'minify-css', 'minify-js'], function() {
+  gulp.watch('scss/*.scss', ['sass']);
+  gulp.watch('css/*.css', ['minify-css']);
+  gulp.watch('js/*.js', ['minify-js']);
+  // Reloads the browser whenever HTML or JS files change
+  gulp.watch('*.html', browserSync.reload);
+  gulp.watch('js/**/*.js', browserSync.reload);
 });
