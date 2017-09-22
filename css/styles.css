@@ -22,7 +22,7 @@ body{
 
 }
 .slidesjs-pagination{
-  background: #C7FFF4;
+  background: #9f364e;
   list-style: none;
   overflow: hidden;
 }
@@ -33,24 +33,24 @@ body{
 
 .slidesjs-pagination li a {
   display:block;
-  padding:10px 20px;
+  padding: 6px 12px;
   color:#fff;
   text-decoration: none;
 }
 
 .slidesjs-pagination li a:hover {
-  background: #e18096;
+  background: #cc4b6a;
 }
 
 .slides .active{
-  background: #e18096;
+  background: #3d0814;
 }
 
 .slidesjs-navigation{
-  background: #e18096;
+  background: #9f364e;
   color: #fff;
   text-decoration: none;
   display: inline-block;
-  padding: 10px 20px;
+  padding: 6px 13px;
   float: right;
 }
